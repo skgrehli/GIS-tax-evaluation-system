@@ -1,0 +1,16 @@
+{
+  "name": "gis",
+  "version": "1.0.0",
+  "description": "Get the gis tax value of all the country",
+  "main": "mechlenburg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "namecase": "^1.1.2",
+    "request": "^2.88.0"
+  }
+}
