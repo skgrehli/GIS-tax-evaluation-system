@@ -2,9 +2,10 @@ var losAngeles = require('./losAngeles');
 var cookCounty = require('./cookCounty');
 var harrisCounty = require('./harrisCounty');
 var dallas = require('./dallas');
-var riverCounty = require('./riversideCounty')
+var riverCounty = require('./riversideCounty');
+var kingsCounty = require('./kingsCounty');
 
- losAngeles('11975 WALNUT LN LOS ANGELES CA 90025')
+ /* losAngeles('11975 WALNUT LN LOS ANGELES CA 90025')
     .then(LAres => {
         console.log("LA response------", LAres)
     })
@@ -33,11 +34,20 @@ dallas('2104 Greenville Ave')
     .catch(err => {
         console.log("error-----", err)
     })
-
+*/
 riverCounty('5620 VAN BUREN BLV')
 .then(res => {
-        console.log("Dallas County res------", res)
+        console.log("river County res------", res)
+    })
+    .catch(err => {
+        console.log("error-----", err)
+    }) 
+
+/* kingsCounty('2000 FAIRVIEW AVE')
+    .then(res => {
+        console.log("kings County res------", res)
     })
     .catch(err => {
         console.log("error-----", err)
     })
+ */
